@@ -1,10 +1,9 @@
-import Post from './comps/Post';
+import PostsList from './comps/PostsList'; 
 
 function App() {
   return (
     <main>
-    <Post author="Morgan" body="likes to program"/>
-    <Post author="Taylor" body="likes medicine"/>
+      <PostsList />
   </main>
   );
 }
