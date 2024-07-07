@@ -1,5 +1,13 @@
+import Post from './comps/Post';
+
 function App() {
-  return <h1>Hello World!</h1>;
+  return (
+    <main>
+    <Post author="Morgan" body="likes to program"/>
+    <Post author="Taylor" body="likes medicine"/>
+  </main>
+  );
 }
+
 
 export default App;
